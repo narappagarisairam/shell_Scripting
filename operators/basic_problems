@@ -1,0 +1,24 @@
+#simple interest
+
+read -p"enter the number n1"p
+read -p"enter the number n2"t
+read -p"enter the number n2"r
+result=$(expr $p * $t * $r | bc)
+res=$(expr $result / 100 | bc)
+echo"$res"
+
+#forgine heat
+
+read -p"enter the number n1"f
+d=$(expr 5 / 9 |bc)
+e=$(expr $f - 32 |bc)
+c=$(expr $d * $e | bc)
+echo"$c"
+
+#perimeter of rectangle
+
+read -p "enter the length" l
+read -p "enter the breath" b
+p=$(expr 2*($l + $b | bc) |bc)
+echo"$p"
+
